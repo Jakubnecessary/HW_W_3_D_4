@@ -1,5 +1,5 @@
 class Event():
-    def __int__(self, date, name_of_event, number_of_guests, room_location, descripton):
+    def __init__(self, date, name_of_event, number_of_guests, room_location, descripton):
         self.date = date
         self.name_of_event = name_of_event
         self.number_of_guests = number_of_guests
